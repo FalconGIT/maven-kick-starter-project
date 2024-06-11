@@ -1,16 +1,8 @@
-package com.citi.service;
+package com.example.service;
 
-import com.citi.model.Stock;
-import com.citi.model.StockType;
-import com.citi.model.TradeAction;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.RoundingMode;
-import java.time.LocalDateTime;
 
 public class SampleTest {
 
@@ -20,8 +12,8 @@ public class SampleTest {
     }
     @Test
     public void testScenario1() {
-        String expectedValue = 1;
-        String actualValue = 1;
+        String expectedValue = "abc";
+        String actualValue = "abc";
         Assertions.assertEquals(expectedValue, actualValue);
     }
 
